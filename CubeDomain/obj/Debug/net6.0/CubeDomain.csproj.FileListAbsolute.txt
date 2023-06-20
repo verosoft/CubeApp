@@ -10,3 +10,15 @@ C:\Users\veros\source\repos\CubeDomain\obj\Debug\net6.0\CubeDomain.dll
 C:\Users\veros\source\repos\CubeDomain\obj\Debug\net6.0\refint\CubeDomain.dll
 C:\Users\veros\source\repos\CubeDomain\obj\Debug\net6.0\CubeDomain.pdb
 C:\Users\veros\source\repos\CubeDomain\obj\Debug\net6.0\ref\CubeDomain.dll
+C:\Users\veros\source\repos\Cube\CubeDomain\bin\Debug\net6.0\CubeDomain.deps.json
+C:\Users\veros\source\repos\Cube\CubeDomain\bin\Debug\net6.0\CubeDomain.dll
+C:\Users\veros\source\repos\Cube\CubeDomain\bin\Debug\net6.0\CubeDomain.pdb
+C:\Users\veros\source\repos\Cube\CubeDomain\obj\Debug\net6.0\CubeDomain.csproj.AssemblyReference.cache
+C:\Users\veros\source\repos\Cube\CubeDomain\obj\Debug\net6.0\CubeDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veros\source\repos\Cube\CubeDomain\obj\Debug\net6.0\CubeDomain.AssemblyInfoInputs.cache
+C:\Users\veros\source\repos\Cube\CubeDomain\obj\Debug\net6.0\CubeDomain.AssemblyInfo.cs
+C:\Users\veros\source\repos\Cube\CubeDomain\obj\Debug\net6.0\CubeDomain.csproj.CoreCompileInputs.cache
+C:\Users\veros\source\repos\Cube\CubeDomain\obj\Debug\net6.0\CubeDomain.dll
+C:\Users\veros\source\repos\Cube\CubeDomain\obj\Debug\net6.0\refint\CubeDomain.dll
+C:\Users\veros\source\repos\Cube\CubeDomain\obj\Debug\net6.0\CubeDomain.pdb
+C:\Users\veros\source\repos\Cube\CubeDomain\obj\Debug\net6.0\ref\CubeDomain.dll
