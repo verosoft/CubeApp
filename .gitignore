@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /CubeApp/obj/Debug/net6.0/CubeApp.csproj.AssemblyReference.cache
 /CubeDomain.Test/obj/Debug/net6.0/CubeDomain.Test.csproj.AssemblyReference.cache
+/CubeApp/.vs/CubeApp/v17/.suo
