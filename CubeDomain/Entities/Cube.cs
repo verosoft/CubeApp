@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CubeDomain.ValueObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace CubeDomain.Entities
         /// <summary>
         /// Length of the edge of the cube
         /// </summary>
-        public double Dimension { get; }
+        public Dimension Dimension { get; }
 
         /// <summary>
         /// x-coordinate of the cube center
@@ -35,25 +36,36 @@ namespace CubeDomain.Entities
         /// <param name="x">x-coordinate of the cube center</param>
         /// <param name="y">y-coordinate of the cube center</param>
         /// <param name="z">z-coordinate of the cube center</param>
-       public Cube(double dimension, double x, double y, double z)
+       public Cube(Dimension dimension, double x, double y, double z)
         {
 
-            if (dimension <= 0)
-            {
-                throw new ArgumentException("The dimension must be positive", nameof(dimension));
-            }
-
-
-            // Asignar los valores a las propiedades
+                       
             Dimension = dimension;
             X = x;
             Y = y;
             Z = z;
         }
 
+        /// <summary>
+        /// Constructor that receives the dimension and coordinates of the cube.
+        /// </summary>
+        /// <param name="dimension">Length of the edge of the cube</param>
+        /// <param name="x">x-coordinate of the cube center</param>
+        /// <param name="y">y-coordinate of the cube center</param>
+        /// <param name="z">z-coordinate of the cube center</param>
+        public Cube(Dimension dimension, string x, string y, string z)
+        {
+
+
+            Dimension = dimension;
+            X = Convert.ToDouble(x);
+            Y = Convert.ToDouble(y);
+            Z = Convert.ToDouble(z);
+        }
+
         public double Volume()
         {
-            return Math.Pow(Dimension, 3);
+            return Math.Pow(Dimension.GetValue(), 3);
         }
         
     }

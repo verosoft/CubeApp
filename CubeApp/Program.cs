@@ -1,8 +1,10 @@
 ﻿
-using CubeDomain.ApplicationServices;
-using CubeDomain.Entities;
+using CubeDomain.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using CubeApplicationService;
+using System.Resources;
+using System.Reflection;
 
 namespace CubeApp
 {
@@ -10,37 +12,35 @@ namespace CubeApp
     {
         static void Main(string[] args)
         {
-           
-
+          
+            var  resourceManager = new ResourceManager(typeof(CubeApp.Properties.Resources));
             var serviceProvicer = BuilSerrviceProvider();
-            var cubeInterseccionService = serviceProvicer.GetService<ICubeIntersectionService>();
+            var cubeInterseccionApp = serviceProvicer.GetService<ICubeIntersectionApp>();
 
-            Console.WriteLine("CUBE A:");
-            Console.Write("Dimension:");
+            Console.WriteLine(resourceManager.GetString("CubeAHead"));
+            Console.Write(resourceManager.GetString("Dimension"));
             var dimensionCubeA = Console.ReadLine();
-            Console.Write("Coordinate X:"); 
+            Console.Write(resourceManager.GetString("CoordinateX")); 
             var coordinateXCubeA = Console.ReadLine();
-            Console.Write("Coordinate Y:");
+            Console.Write(resourceManager.GetString("CoordinateY"));
             var coordinateYCubeA = Console.ReadLine();
-            Console.Write("Coordinate Z:");
+            Console.Write(resourceManager.GetString("CoordinateZ"));
             var coordinateZCubeA = Console.ReadLine();
 
-            Console.WriteLine("CUBE B:");
-            Console.Write("Dimension:");
+            Console.WriteLine(resourceManager.GetString("CubeBHead"));
+            Console.Write(resourceManager.GetString("Dimension"));
             var dimensionCubeB = Console.ReadLine();
-            Console.Write("Coordinate X:");
+            Console.Write(resourceManager.GetString("CoordinateX"));
             var coordinateXCubeB = Console.ReadLine();
-            Console.Write("Coordinate Y:");
+            Console.Write(resourceManager.GetString("CoordinateY"));
             var coordinateYCubeB = Console.ReadLine();
-            Console.Write("Coordinate Z:");
+            Console.Write(resourceManager.GetString("CoordinateZ"));
             var coordinateZCubeB = Console.ReadLine();
-
-            ICube cubeA = new Cube(Convert.ToDouble(dimensionCubeA), Convert.ToDouble(coordinateXCubeA), Convert.ToDouble(coordinateYCubeA), Convert.ToDouble(coordinateZCubeA));
-            ICube cubeB = new Cube(Convert.ToDouble(dimensionCubeB), Convert.ToDouble(coordinateXCubeB), Convert.ToDouble(coordinateYCubeB), Convert.ToDouble(coordinateZCubeB));
+                        
             
-            var intersectionVolume = cubeInterseccionService?.GetIntersectedVolume(cubeA, cubeB);
+            var intersectionVolume = cubeInterseccionApp?.GetIntersectedVolume(dimensionCubeA, dimensionCubeB, coordinateXCubeA, coordinateXCubeB, coordinateYCubeA, coordinateYCubeB, coordinateZCubeA, coordinateZCubeB);
 
-            Console.WriteLine($"the intersection volume between {nameof(cubeA)} and {nameof(cubeB)} is {intersectionVolume}");
+            Console.WriteLine($"the intersection volume between cubeA and cubeB is {intersectionVolume}");
 
 
             Console.ReadLine();
@@ -69,6 +69,7 @@ namespace CubeApp
             var services = new ServiceCollection();
             services.AddSingleton<IConfiguration>(config);
             services.AddSingleton<ICubeIntersectionService, CubeIntersectionService>();
+            services.AddSingleton<ICubeIntersectionApp, CubeIntersectionApp>();
 
             return services.BuildServiceProvider();
 

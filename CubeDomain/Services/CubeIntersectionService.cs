@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CubeDomain.ApplicationServices
+namespace CubeDomain.Services
 {
     public class CubeIntersectionService : ICubeIntersectionService
     {
@@ -26,9 +26,9 @@ namespace CubeDomain.ApplicationServices
             double Length(double d1, double d2, double d) => Math.Max(0, d1 / 2 + d2 / 2 - d);
 
 
-            double V = Length(cubeA.Dimension, cubeB.Dimension, Distance(cubeA.X, cubeB.X)) *
-                       Length(cubeA.Dimension, cubeB.Dimension, Distance(cubeA.Y, cubeB.Y)) *
-                       Length(cubeA.Dimension, cubeB.Dimension, Distance(cubeA.Z, cubeB.Z));
+            double V = Length(cubeA.Dimension.GetValue(), cubeB.Dimension.GetValue(), Distance(cubeA.X, cubeB.X)) *
+                       Length(cubeA.Dimension.GetValue(), cubeB.Dimension.GetValue(), Distance(cubeA.Y, cubeB.Y)) *
+                       Length(cubeA.Dimension.GetValue(), cubeB.Dimension.GetValue(), Distance(cubeA.Z, cubeB.Z));
 
 
             return V;

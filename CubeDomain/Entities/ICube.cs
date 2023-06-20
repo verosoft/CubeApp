@@ -1,8 +1,10 @@
-﻿namespace CubeDomain.Entities
+﻿using CubeDomain.ValueObjects;
+
+namespace CubeDomain.Entities
 {
     public interface ICube
     {
-        double Dimension { get; }
+        Dimension Dimension { get; }
         double X { get; }
         double Y { get; }
         double Z { get; }

@@ -1,6 +1,6 @@
 ﻿using CubeDomain.Entities;
 
-namespace CubeDomain.ApplicationServices
+namespace CubeDomain.Services
 {
     public interface ICubeIntersectionService
     {

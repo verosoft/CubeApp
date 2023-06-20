@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\.gitignore = ..\.gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeApplicationService", "..\CubeApplicationService\CubeApplicationService.csproj", "{0FA0DE56-F6A1-4750-B172-92DAC34C6730}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{3AB178F1-7973-4041-84CD-6B604CFBE7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AB178F1-7973-4041-84CD-6B604CFBE7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AB178F1-7973-4041-84CD-6B604CFBE7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA0DE56-F6A1-4750-B172-92DAC34C6730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA0DE56-F6A1-4750-B172-92DAC34C6730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA0DE56-F6A1-4750-B172-92DAC34C6730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA0DE56-F6A1-4750-B172-92DAC34C6730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
