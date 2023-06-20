@@ -40,7 +40,7 @@ namespace CubeApp
             
             var intersectionVolume = cubeInterseccionApp?.GetIntersectedVolume(dimensionCubeA, dimensionCubeB, coordinateXCubeA, coordinateXCubeB, coordinateYCubeA, coordinateYCubeB, coordinateZCubeA, coordinateZCubeB);
 
-            Console.WriteLine($"the intersection volume between cubeA and cubeB is {intersectionVolume}");
+            Console.WriteLine($"{resourceManager.GetString("Result")}{intersectionVolume}");
 
 
             Console.ReadLine();
