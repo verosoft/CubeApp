@@ -1,0 +1,12 @@
+C:\Users\veros\source\repos\CubeInfrastructure\bin\Debug\net6.0\CubeInfrastructure.deps.json
+C:\Users\veros\source\repos\CubeInfrastructure\bin\Debug\net6.0\CubeInfrastructure.dll
+C:\Users\veros\source\repos\CubeInfrastructure\bin\Debug\net6.0\CubeInfrastructure.pdb
+C:\Users\veros\source\repos\CubeInfrastructure\obj\Debug\net6.0\CubeInfrastructure.csproj.AssemblyReference.cache
+C:\Users\veros\source\repos\CubeInfrastructure\obj\Debug\net6.0\CubeInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veros\source\repos\CubeInfrastructure\obj\Debug\net6.0\CubeInfrastructure.AssemblyInfoInputs.cache
+C:\Users\veros\source\repos\CubeInfrastructure\obj\Debug\net6.0\CubeInfrastructure.AssemblyInfo.cs
+C:\Users\veros\source\repos\CubeInfrastructure\obj\Debug\net6.0\CubeInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\veros\source\repos\CubeInfrastructure\obj\Debug\net6.0\CubeInfrastructure.dll
+C:\Users\veros\source\repos\CubeInfrastructure\obj\Debug\net6.0\refint\CubeInfrastructure.dll
+C:\Users\veros\source\repos\CubeInfrastructure\obj\Debug\net6.0\CubeInfrastructure.pdb
+C:\Users\veros\source\repos\CubeInfrastructure\obj\Debug\net6.0\ref\CubeInfrastructure.dll
