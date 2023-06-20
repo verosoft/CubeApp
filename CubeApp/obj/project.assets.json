@@ -806,11 +806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\veros\\source\\repos\\CubeApp\\CubeApp.csproj",
+      "projectUniqueName": "C:\\Users\\veros\\source\\repos\\Cube\\CubeApp\\CubeApp.csproj",
       "projectName": "CubeApp",
-      "projectPath": "C:\\Users\\veros\\source\\repos\\CubeApp\\CubeApp.csproj",
+      "projectPath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeApp\\CubeApp.csproj",
       "packagesPath": "C:\\Users\\veros\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\veros\\source\\repos\\CubeApp\\obj\\",
+      "outputPath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -832,11 +832,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\veros\\source\\repos\\CubeDomain\\CubeDomain.csproj": {
-              "projectPath": "C:\\Users\\veros\\source\\repos\\CubeDomain\\CubeDomain.csproj"
+            "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain\\CubeDomain.csproj": {
+              "projectPath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain\\CubeDomain.csproj"
             },
-            "C:\\Users\\veros\\source\\repos\\CubeInfrastructure\\CubeInfrastructure.csproj": {
-              "projectPath": "C:\\Users\\veros\\source\\repos\\CubeInfrastructure\\CubeInfrastructure.csproj"
+            "C:\\Users\\veros\\source\\repos\\Cube\\CubeInfrastructure\\CubeInfrastructure.csproj": {
+              "projectPath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeInfrastructure\\CubeInfrastructure.csproj"
             }
           }
         }

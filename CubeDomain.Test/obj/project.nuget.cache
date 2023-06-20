@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mq+BRCt6zk46duFaNEBCItAFMwuc/h39FQvmG5KaiTMSbpdJdCdDgb1o14hkQMq3oI9o2mC1Q76IK/xMtYeSHA==",
+  "dgSpecHash": "rt4PWUKGB5caAaQoOodqT3MO8ZqyEDbbzeQmAZ1piHzFi93+T0Ipk9hg6K6XQ5TnJAheO5GchT2cH9tRrHl82Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\veros\\source\\repos\\CubeDomain.Test\\CubeDomain.Test.csproj",
+  "projectFilePath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain.Test\\CubeDomain.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\veros\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\veros\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

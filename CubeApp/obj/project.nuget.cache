@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JtZkdo5wc1ae/MyR4Q6X8g6n52MLv4QwpkFRb+wWLM/asercXi7gx0m66r4t1njTWKiIqtWNsCMfBV7i0bSmYw==",
+  "dgSpecHash": "flwcJan3zVyJdLkLQtPp87eiKkYKdUlidR+FoEPyzm1+myt2cxMGf1K2GCmN2J8MyBl7h67pUeYCneL9iUuPfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\veros\\source\\repos\\CubeApp\\CubeApp.csproj",
+  "projectFilePath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeApp\\CubeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\veros\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\veros\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

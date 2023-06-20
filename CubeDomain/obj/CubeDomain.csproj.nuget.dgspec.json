@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\veros\\source\\repos\\CubeDomain\\CubeDomain.csproj": {}
+    "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain\\CubeDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\veros\\source\\repos\\CubeDomain\\CubeDomain.csproj": {
+    "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain\\CubeDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\veros\\source\\repos\\CubeDomain\\CubeDomain.csproj",
+        "projectUniqueName": "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain\\CubeDomain.csproj",
         "projectName": "CubeDomain",
-        "projectPath": "C:\\Users\\veros\\source\\repos\\CubeDomain\\CubeDomain.csproj",
+        "projectPath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain\\CubeDomain.csproj",
         "packagesPath": "C:\\Users\\veros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\veros\\source\\repos\\CubeDomain\\obj\\",
+        "outputPath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

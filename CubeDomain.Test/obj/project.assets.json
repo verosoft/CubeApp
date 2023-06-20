@@ -6358,11 +6358,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\veros\\source\\repos\\CubeDomain.Test\\CubeDomain.Test.csproj",
+      "projectUniqueName": "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain.Test\\CubeDomain.Test.csproj",
       "projectName": "CubeDomain.Test",
-      "projectPath": "C:\\Users\\veros\\source\\repos\\CubeDomain.Test\\CubeDomain.Test.csproj",
+      "projectPath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain.Test\\CubeDomain.Test.csproj",
       "packagesPath": "C:\\Users\\veros\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\veros\\source\\repos\\CubeDomain.Test\\obj\\",
+      "outputPath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6384,8 +6384,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\veros\\source\\repos\\CubeDomain\\CubeDomain.csproj": {
-              "projectPath": "C:\\Users\\veros\\source\\repos\\CubeDomain\\CubeDomain.csproj"
+            "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain\\CubeDomain.csproj": {
+              "projectPath": "C:\\Users\\veros\\source\\repos\\Cube\\CubeDomain\\CubeDomain.csproj"
             }
           }
         }
