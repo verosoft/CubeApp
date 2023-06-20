@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeApp", "CubeApp.csproj", "{80136EE5-7C18-441C-BA1C-1AB6C2A50D6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CubeApp", "CubeApp.csproj", "{80136EE5-7C18-441C-BA1C-1AB6C2A50D6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeDomain", "..\CubeDomain\CubeDomain.csproj", "{39620F72-0E31-4DF6-BA0D-2FEBDD8FEDF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CubeDomain", "..\CubeDomain\CubeDomain.csproj", "{39620F72-0E31-4DF6-BA0D-2FEBDD8FEDF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeInfrastructure", "..\CubeInfrastructure\CubeInfrastructure.csproj", "{2F1DFB44-B8C1-43C6-94C4-55E0B6043820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CubeInfrastructure", "..\CubeInfrastructure\CubeInfrastructure.csproj", "{2F1DFB44-B8C1-43C6-94C4-55E0B6043820}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeDomain.Test", "..\CubeDomain.Test\CubeDomain.Test.csproj", "{3AB178F1-7973-4041-84CD-6B604CFBE7C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CubeDomain.Test", "..\CubeDomain.Test\CubeDomain.Test.csproj", "{3AB178F1-7973-4041-84CD-6B604CFBE7C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{34436D70-4EF4-4881-8E5F-42816E446D7E}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
